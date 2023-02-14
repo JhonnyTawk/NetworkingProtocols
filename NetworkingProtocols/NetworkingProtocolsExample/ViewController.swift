@@ -17,3 +17,7 @@ class ViewController: UIViewController {
 
 }
 
+//public extension HTTPHeaderField {
+//    static var custom1: HTTPHeaderField { return HTTPHeaderField(rawValue: "Custom1") }
+//
+//}

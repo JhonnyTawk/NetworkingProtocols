@@ -17,8 +17,10 @@
 		B7499CDA299AE4B10081A38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7499CD8299AE4B10081A38D /* Main.storyboard */; };
 		B7499CDC299AE4B10081A38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7499CDB299AE4B10081A38D /* Assets.xcassets */; };
 		B7499CDF299AE4B10081A38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7499CDD299AE4B10081A38D /* LaunchScreen.storyboard */; };
-		B7499CE5299AE6770081A38D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7499CE4299AE6770081A38D /* Networking.swift */; };
+		B7499CE5299AE6770081A38D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7499CE4299AE6770081A38D /* NetworkService.swift */; };
 		B7499CE9299AE7C10081A38D /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7499CE8299AE7C10081A38D /* HttpMethod.swift */; };
+		B7499CEB299AE99C0081A38D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7499CEA299AE99C0081A38D /* Endpoints.swift */; };
+		B7EE145A299B6A7400DB56D8 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EE1459299B6A7400DB56D8 /* RequestError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +47,10 @@
 		B7499CDB299AE4B10081A38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7499CDE299AE4B10081A38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7499CE0299AE4B10081A38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7499CE4299AE6770081A38D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B7499CE4299AE6770081A38D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B7499CE8299AE7C10081A38D /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		B7499CEA299AE99C0081A38D /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		B7EE1459299B6A7400DB56D8 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			children = (
 				B7499CB5299AE3280081A38D /* NetworkingProtocols.h */,
 				B7499CB6299AE3280081A38D /* NetworkingProtocols.docc */,
-				B7499CE4299AE6770081A38D /* Networking.swift */,
+				B7499CE4299AE6770081A38D /* NetworkService.swift */,
 				B7499CE8299AE7C10081A38D /* HttpMethod.swift */,
+				B7499CEA299AE99C0081A38D /* Endpoints.swift */,
+				B7EE1459299B6A7400DB56D8 /* RequestError.swift */,
 			);
 			path = NetworkingProtocols;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7499CE9299AE7C10081A38D /* HttpMethod.swift in Sources */,
+				B7EE145A299B6A7400DB56D8 /* RequestError.swift in Sources */,
 				B7499CB7299AE3280081A38D /* NetworkingProtocols.docc in Sources */,
-				B7499CE5299AE6770081A38D /* Networking.swift in Sources */,
+				B7499CEB299AE99C0081A38D /* Endpoints.swift in Sources */,
+				B7499CE5299AE6770081A38D /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
